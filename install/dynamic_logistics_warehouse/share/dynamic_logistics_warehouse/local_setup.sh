@@ -1,1 +1,0 @@
-/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse/ament_cmake_environment_hooks/local_setup.sh

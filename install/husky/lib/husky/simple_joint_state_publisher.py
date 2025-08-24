@@ -1,1 +1,0 @@
-/home/dejoy/Desktop/multi-agent/src/husky/scripts/simple_joint_state_publisher.py
