@@ -1,0 +1,212 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7365b9a99ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7365b9a99810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7365b9a99810>>, mixin_verb=('build',))
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.091s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dejoy/Desktop/multi-agent'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_logistics_warehouse) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamic_logistics_warehouse' with type 'ros.ament_cmake' and name 'dynamic_logistics_warehouse'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/husky) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/husky' with type 'ros.ament_cmake' and name 'husky'
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dejoy/Desktop/multi-agent/install/husky' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dejoy/Desktop/multi-agent/install/warehouse_simulation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dejoy/Desktop/multi-agent/install/husky' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.117s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dejoy/Desktop/multi-agent/install
+[0.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 481 installed packages in /opt/ros/humble
+[0.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'cmake_target' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'dynamic_logistics_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.148s] DEBUG:colcon.colcon_core.verb:Building package 'dynamic_logistics_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse', 'merge_install': False, 'path': '/home/dejoy/Desktop/multi-agent/src/dynamic_logistics_warehouse', 'symlink_install': True, 'test_result_base': None}
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'cmake_target' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'cmake_clean_cache' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'cmake_clean_first' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'cmake_force_configure' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'ament_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'catkin_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'husky' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.149s] DEBUG:colcon.colcon_core.verb:Building package 'husky' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dejoy/Desktop/multi-agent/build/husky', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dejoy/Desktop/multi-agent/install/husky', 'merge_install': False, 'path': '/home/dejoy/Desktop/multi-agent/src/husky', 'symlink_install': True, 'test_result_base': None}
+[0.149s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dejoy/Desktop/multi-agent/src/dynamic_logistics_warehouse' with build type 'ament_cmake'
+[0.150s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dejoy/Desktop/multi-agent/src/dynamic_logistics_warehouse'
+[0.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.160s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dejoy/Desktop/multi-agent/src/husky' with build type 'ament_cmake'
+[0.160s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dejoy/Desktop/multi-agent/src/husky'
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dejoy/Desktop/multi-agent/src/dynamic_logistics_warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse
+[0.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dejoy/Desktop/multi-agent/build/husky': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dejoy/Desktop/multi-agent/src/husky -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dejoy/Desktop/multi-agent/install/husky
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dejoy/Desktop/multi-agent/build/husky' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dejoy/Desktop/multi-agent/src/husky -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dejoy/Desktop/multi-agent/install/husky
+[1.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dejoy/Desktop/multi-agent/build/husky': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dejoy/Desktop/multi-agent/build/husky -- -j12 -l12
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dejoy/Desktop/multi-agent/build/husky' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dejoy/Desktop/multi-agent/build/husky -- -j12 -l12
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dejoy/Desktop/multi-agent/build/husky': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dejoy/Desktop/multi-agent/build/husky
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dejoy/Desktop/multi-agent/src/dynamic_logistics_warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse
+[1.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse -- -j12 -l12
+[1.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse -- -j12 -l12
+[1.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse
+[2.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky)
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dejoy/Desktop/multi-agent/build/husky' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dejoy/Desktop/multi-agent/build/husky
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky' for CMake module files
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky', 'cmake_prefix_path')
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/hook/cmake_prefix_path.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/hook/cmake_prefix_path.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/hook/cmake_prefix_path.sh'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/lib'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/bin'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/lib/pkgconfig/husky.pc'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/lib/python3.10/site-packages'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/bin'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.sh'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.zsh'
+[2.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dejoy/Desktop/multi-agent/install/husky/share/colcon-core/packages/husky)
+[2.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husky)
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky' for CMake module files
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky' for CMake config files
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('husky', 'cmake_prefix_path')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/hook/cmake_prefix_path.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/hook/cmake_prefix_path.dsv'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/hook/cmake_prefix_path.sh'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/lib'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/bin'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/lib/pkgconfig/husky.pc'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/lib/python3.10/site-packages'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/husky/bin'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.ps1'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.sh'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.bash'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.zsh'
+[2.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dejoy/Desktop/multi-agent/install/husky/share/colcon-core/packages/husky)
+[2.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_logistics_warehouse)
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse' for CMake module files
+[2.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dejoy/Desktop/multi-agent/build/dynamic_logistics_warehouse
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse' for CMake config files
+[2.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_logistics_warehouse', 'cmake_prefix_path')
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/hook/cmake_prefix_path.ps1'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/hook/cmake_prefix_path.dsv'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/hook/cmake_prefix_path.sh'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/bin'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/lib/pkgconfig/dynamic_logistics_warehouse.pc'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/lib/python3.10/site-packages'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/bin'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.dsv'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.sh'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.bash'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.zsh'
+[2.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/colcon-core/packages/dynamic_logistics_warehouse)
+[2.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_logistics_warehouse)
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse' for CMake module files
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse' for CMake config files
+[2.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_logistics_warehouse', 'cmake_prefix_path')
+[2.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/hook/cmake_prefix_path.ps1'
+[2.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/hook/cmake_prefix_path.dsv'
+[2.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/hook/cmake_prefix_path.sh'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/bin'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/lib/pkgconfig/dynamic_logistics_warehouse.pc'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/lib/python3.10/site-packages'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/bin'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.dsv'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.sh'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.bash'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/package.zsh'
+[2.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/colcon-core/packages/dynamic_logistics_warehouse)
+[2.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.681s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.685s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.686s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.694s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dejoy/Desktop/multi-agent/install/local_setup.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dejoy/Desktop/multi-agent/install/_local_setup_util_ps1.py'
+[2.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dejoy/Desktop/multi-agent/install/setup.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dejoy/Desktop/multi-agent/install/local_setup.sh'
+[2.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dejoy/Desktop/multi-agent/install/_local_setup_util_sh.py'
+[2.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dejoy/Desktop/multi-agent/install/setup.sh'
+[2.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dejoy/Desktop/multi-agent/install/local_setup.bash'
+[2.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dejoy/Desktop/multi-agent/install/setup.bash'
+[2.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dejoy/Desktop/multi-agent/install/local_setup.zsh'
+[2.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dejoy/Desktop/multi-agent/install/setup.zsh'

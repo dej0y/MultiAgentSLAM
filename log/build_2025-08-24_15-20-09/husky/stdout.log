@@ -1,0 +1,160 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dejoy/Desktop/multi-agent/build/husky
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/aaa.py
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/gazebo.launch.py
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/husky_task2.launch.py
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/maze_navigation.launch.py
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/visualize.launch.py
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//config/husky_visualization.rviz
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/lib/husky/simple_joint_state_publisher.py
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/.DS_Store
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_0/materials/scripts/aruco_marker_0_marker.material
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_0/materials/textures/aruco_mark_0.png
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_0/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_0/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_1/materials/scripts/aruco_marker_1_marker.material
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_1/materials/textures/aruco_mark_1.png
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_1/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_1/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_2/materials/scripts/aruco_marker_2_marker.material
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_2/materials/textures/aruco_mark_2.png
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_2/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_2/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_3/materials/scripts/aruco_marker_3_marker.material
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_3/materials/textures/aruco_mark_3.png
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_3/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_3/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_4/materials/scripts/aruco_marker_4_marker.material
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_4/materials/textures/aruco_mark_4.png
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_4/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/aruco_marker_4/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ball_pink/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ball_pink/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_blue/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_blue/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_green/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_green/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_purple/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_purple/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_red/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_red/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_yellow/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/box_yellow/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ground_plane/model-1_2.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ground_plane/model-1_3.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ground_plane/model-1_4.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ground_plane/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/ground_plane/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/.DS_Store
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/materials/textures/realsense_diffuse.jpg
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/materials/textures/spotlight.jpg
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/VLP16_base_1.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/VLP16_base_2.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/VLP16_scan.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/base_link.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/bumper.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/jpl04_arch_nosensor.stl
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/realsense.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/spotlight.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/top_chassis.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/top_plate.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/user_rail.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/meshes/wheel.dae
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/model.urdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/thumbnails/1.jpg
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/thumbnails/2.jpg
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/thumbnails/3.jpg
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/husky_robot_model/thumbnails/4.jpg
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sample_world/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sample_world/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sun/model-1_2.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sun/model-1_3.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sun/model-1_4.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sun/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/sun/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/table/model-1_2.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/table/model-1_3.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/table/model-1_4.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/table/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/table/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/world1/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//models/world1/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/Task.world
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/Task2.world
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/maze.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/maze.world
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/maze/model.config
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/maze/model.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/robo_world.world
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/sample_world.sdf
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/sample_world.world
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky//worlds/world1.world
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.xml
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/environment/camp.dsv
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/ament_index/resource_index/package_run_dependencies/husky
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/ament_index/resource_index/parent_prefix_path/husky
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/environment/ament_prefix_path.sh
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/environment/path.sh
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/environment/path.dsv
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/local_setup.bash
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/local_setup.sh
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/local_setup.zsh
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/local_setup.dsv
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.dsv
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/ament_index/resource_index/packages/husky
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/cmake/huskyConfig.cmake
+-- Symlinking: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/cmake/huskyConfig-version.cmake
+-- Up-to-date symlink: /home/dejoy/Desktop/multi-agent/install/husky/share/husky/package.xml

@@ -1,0 +1,4 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/dejoy/Desktop/multi-agent/install/husky/share/husky/models
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;/home/dejoy/Desktop/multi-agent/install/husky/share/husky/worlds
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;/home/dejoy/Desktop/multi-agent/install/husky/share/husky/models
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;/home/dejoy/Desktop/multi-agent/install/husky/share/husky/worlds
