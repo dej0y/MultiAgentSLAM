@@ -1,7 +1,6 @@
-/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/launch/logistics_warehouse.launch.py
-/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/launch/multi_husky.launch.py
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/launch/multi_spawn_turtlebot3.launch.py
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/launch/robot_state_publisher.launch.py
+/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/launch/swarm.launch.py
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/launch/world_swarm.launch.py
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
@@ -96,6 +95,7 @@
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/maps/005/map_rotated.png
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/rviz/basic_data.rviz
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/rviz/multibot.rviz
+/home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/config/td3_config.yaml
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/ament_index/resource_index/package_run_dependencies/dynamic_logistics_warehouse
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/ament_index/resource_index/parent_prefix_path/dynamic_logistics_warehouse
 /home/dejoy/Desktop/multi-agent/install/dynamic_logistics_warehouse/share/dynamic_logistics_warehouse/environment/ament_prefix_path.sh

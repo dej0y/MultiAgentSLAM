@@ -1,1 +1,1 @@
-gazebo_plugins:gazebo_ros:launch:launch_ros
+gazebo:gazebo_plugins:gazebo_ros:robot_state_publisher:ros2launch:rviz2:tf2_ros:turtlebot3_gazebo

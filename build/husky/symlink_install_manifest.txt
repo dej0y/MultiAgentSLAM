@@ -1,4 +1,3 @@
-/home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/aaa.py
 /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/gazebo.launch.py
 /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/husky_task2.launch.py
 /home/dejoy/Desktop/multi-agent/install/husky/share/husky//launch/maze_navigation.launch.py
